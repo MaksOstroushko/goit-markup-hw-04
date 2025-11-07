@@ -1,3 +1,4 @@
+/* #region all properties */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -61,8 +62,9 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* #endregion all properties */
 
-/* region header */
+/* #region header */
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -165,9 +167,9 @@ img {
     color:#404BBF;
 }
 
-/* endregion header */
+/* #endregion header */
 
-/* section 1 */
+/* #region section 1 */
 
 .section-one {
     background-color: #2e2f42;
@@ -210,9 +212,9 @@ img {
     background-color: #404BBF;
 }
 
-/* endsection 1 */
+/* #endregion section 1 */
 
-/* section 2 */
+/* #region section 2 */
 
 .section-two {
     display: flex;
@@ -249,9 +251,9 @@ img {
     margin-bottom: 8px;
 }
 
-/* endsection 2 */
+/* #endregion section 2 */
 
-/* section 3 */
+/* #region section 3 */
 
 .section-three {
     background-color: #F4F4FD;
@@ -299,9 +301,9 @@ img {
     text-align: center;
 }
 
-/* endsection 3 */
+/* #endregion section 3 */
 
-/* section 4 */
+/* #region section 4 */
 
 .section-four {
     display: flex;
@@ -341,9 +343,9 @@ img {
     margin-bottom: 8px;
 }
 
-/* endsection 4 */
+/* #endregion section 4 */
 
-/* region footer */
+/* #region footer */
 
 .page-footer {
     background-color:#2e2f42;
@@ -394,4 +396,4 @@ img {
     padding: 100px 0;
 }
 
-/* endregion footer */
+/* #endregion footer */
