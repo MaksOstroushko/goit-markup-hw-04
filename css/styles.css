@@ -62,6 +62,11 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.icon-sprite {
+    fill: 0;
+}
+
 /* #endregion all properties */
 
 /* #region header */
@@ -173,6 +178,12 @@ img {
 
 .section-one {
     background-color: #2e2f42;
+    background-image: linear-gradient(
+        to top,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+        ),
+        url(/images/background/background.jpg);
     padding: 188px 0;
 }
 
@@ -250,6 +261,8 @@ img {
 .section-list-container .list-title {
     margin-bottom: 8px;
 }
+
+
 
 /* #endregion section 2 */
 
