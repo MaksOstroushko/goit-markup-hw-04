@@ -262,7 +262,16 @@ img {
     margin-bottom: 8px;
 }
 
-
+.sprite-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
 
 /* #endregion section 2 */
 
