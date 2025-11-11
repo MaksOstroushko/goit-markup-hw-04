@@ -140,7 +140,8 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    /* color: #2e2f42; */
+    color: #404bbf;
     padding-top: 24px;
     padding-bottom: 24px;
 
@@ -150,13 +151,13 @@ img {
 
 .nav-list-item:hover, 
 .nav-list-item:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .nav-list-item:hover::after,
 .nav-list-item:focus::after {
     content: "";
-    color: #404BBF;
+    color: #404bbf;
     width: 100%;
     position: absolute;
     left: 0;
