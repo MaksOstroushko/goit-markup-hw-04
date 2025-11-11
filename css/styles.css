@@ -354,6 +354,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-socials-item-icon:hover,
@@ -448,6 +449,15 @@ img {
     background-color:#2e2f42;
 }
 
+.page-footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.page-footer-container .container {
+    margin-right: 120px;
+}
+
 .footer-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -491,6 +501,15 @@ img {
     display: flex;
     flex-direction: column;
     padding: 100px 0;
+}
+
+.social-media-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 /* #endregion footer */
