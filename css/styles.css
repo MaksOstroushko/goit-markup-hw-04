@@ -446,15 +446,18 @@ img {
 /* #region footer */
 
 .page-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
     background-color:#2e2f42;
 }
 
 .page-footer-container {
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
 }
 
-.page-footer-container .container {
+.page-footer-container .footer-logo-container {
     margin-right: 120px;
 }
 
@@ -495,12 +498,6 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-}
-
-.page-footer {
-    display: flex;
-    flex-direction: column;
-    padding: 100px 0;
 }
 
 .social-media-text {
