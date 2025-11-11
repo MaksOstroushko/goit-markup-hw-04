@@ -338,6 +338,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding-top: 8px;
 }
 
 .list-socials-item {
@@ -353,7 +354,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .list-socials-item-icon:hover,
