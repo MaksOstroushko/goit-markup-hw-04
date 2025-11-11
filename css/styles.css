@@ -157,7 +157,6 @@ img {
 .nav-list-item:hover::after,
 .nav-list-item:focus::after {
     content: "";
-    color: #404bbf;
     width: 100%;
     position: absolute;
     left: 0;
