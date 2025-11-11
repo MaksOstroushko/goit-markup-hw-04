@@ -154,8 +154,7 @@ img {
     color: #404bbf;
 }
 
-.nav-list-item:hover::after,
-.nav-list-item:focus::after {
+.nav-list-item.active::after {
     content: "";
     width: 100%;
     position: absolute;
