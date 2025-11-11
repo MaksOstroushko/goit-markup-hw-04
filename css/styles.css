@@ -512,4 +512,15 @@ img {
     margin-bottom: 16px;
 }
 
+.footer-socials-container .list-socials-container {
+    gap: 16px;
+}
+
+.footer-socials-container .list-socials-item-icon:hover,
+.footer-socials-container .list-socials-item-icon:focus {
+    background-color: #31d0aa;
+}
+
+
+
 /* #endregion footer */
