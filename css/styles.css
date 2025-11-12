@@ -202,7 +202,8 @@ img {
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
         ),
-        url(/images/background/background.jpg);
+        url(../images/background/background.jpg);
+    margin: 0 auto;
     padding: 188px 0;
     max-width: 1440px;
     background-repeat: no-repeat;
